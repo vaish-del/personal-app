@@ -1,4 +1,4 @@
-import tkinter as tk
+
 
 # Function triggered when envelope is clicked
 def open_message():
@@ -40,7 +40,6 @@ def open_message():
 
 
 # Main window
-root = tk.Tk()
 root.title("Special Message App")
 root.geometry("400x500")
 root.configure(bg="#ffc0cb")
@@ -74,4 +73,5 @@ footer = tk.Label(
 )
 footer.pack(pady=20)
 
-root.mainloop()
+
+
